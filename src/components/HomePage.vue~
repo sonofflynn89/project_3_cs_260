@@ -1,0 +1,17 @@
+template>
+    <img v-bind:src="imagePath"/>
+</template>
+
+<script>
+ export default {
+     name: 'HomePage',
+     data () {
+	 return {
+	     imagePath: '/static/images/rink.jpg'
+	 }
+     }
+ }
+</script>
+
+<style scoped>
+</style>
